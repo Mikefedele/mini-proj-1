@@ -1,8 +1,24 @@
 * {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-header {background-color: aliceblue;
-text-align: center; }
+header {background-color: aliceblue; text-align: right; list-style: none;}
 
-.top {
-    
-}
+ ul {list-style-type: none;
+    padding: 0%; margin: 0%;
+ }
+
+ ul {
+     position: relative;
+ }
+
+ main {
+     text-align: center;
+ }
+
+ .image1 {
+     width: auto;
+     height: auto;
+ }
+ footer {
+     background-color: aliceblue;
+    text-align: center;
+    }
