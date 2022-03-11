@@ -14,26 +14,45 @@
       <ul>
         <li>Github</li>
         <li>Portfolio</li>
-        <li>Contact</li>
+        <li> <a href="#contact"></a>Contact</li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h1>My New Website</h1>
+    <h1 class="text-center">My New Website</h1>
+    <figure>
+      <img class="image1" src="./assets/images/image1.jpg" alt="coming soon">
+      <figcaption>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </figcaption>
+    </figure>
 
-    <img class="image1" src="./assets/images/assets" alt="fun image here">
+    <section id="contact">
+      <h3 class="text-center">Contact Me:</h3>
+      <form>
+        <ul>
+          <li>
+            <label class="text-right" for="name">Name:</label>
+            <input type="text" id="name" name="user-name">
+          </li>
+          <li>
+            <label class="text-right" for="email">Email:</label>
+            <input type="text" id="email" name="user-email">
+          </li>
+        </ul>
+        <div class="text-center">
+          <button type="submit">SEND</button>
+        </div>
+      </form>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores impedit eius soluta ut aut, in atque, illum
-      repudiandae magni, optio beatae architecto libero dignissimos esse minus ab dolor? Libero, incidunt!</p>
+    </section>
 
   </main>
 
   <!-- Footer contact info -->
-  <footer class="contact">
-    <h2>Contact Info</h2>
-    <h5>Name:</h5>
-    <h5>Email:</h5>
+  <footer class="text-center">
+   @ 2022 MikeFid
   </footer>
 
 </body>
